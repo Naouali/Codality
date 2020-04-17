@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-#note 11% 
+#note 11% / time to accomplish 28 min
+#problem: find the lowest missing number in array
 def solution(A):
     l = len(A)
     a = sorted(A, reverse=True)

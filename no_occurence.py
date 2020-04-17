@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#note 11% 
 def solution(A):
     l = len(A)
     a = sorted(A, reverse=True)
@@ -17,6 +18,7 @@ def solution(A):
 A = [1, 3, 6, 4, 1, 2]
 B = [2, 3, 4, 6]
 c = [-1,-3]
+D = [1,2,4]
 print(solution(A))
 print(solution(B))
-print(solution(c))
+print(solution(D))
